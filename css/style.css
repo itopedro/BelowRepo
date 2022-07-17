@@ -59,15 +59,18 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
     margin: 0;
-    
-
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 
 }
 
 nav ul li a:hover {
     color: black;
     font-weight: 600;
-    border-bottom: solid 2px #000000;
+   background-size: 100% 2px;
 }
 
 .one {
@@ -105,6 +108,11 @@ nav ul li a:hover {
 
 .pieIcon {
     width: 30px;
+    padding-top: 5px;
+}
+.pieIcon:hover {
+transform: rotateZ(-360deg);
+transition: transform 1.4s;
 }
 
 .pieTitulo {
