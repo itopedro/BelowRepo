@@ -26,32 +26,28 @@ body {
 
 }
 
-.botonera {
+
+.botonera  { 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: auto;
     width: 100%;
-
 }
 
 .botonera ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgba(128, 128, 128, 0.507);
     width: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
+    
 }
-
-
-
-
-
 .botonera ul li a {
     color: black;
     text-decoration: none;
@@ -64,8 +60,10 @@ body {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
+    border-bottom: solid black 1px;
 
 }
+
 
 nav ul li a:hover {
     color: black;
@@ -143,7 +141,7 @@ transition: transform 1.4s;
  
 }
 
-.logoNav {
+.logoNav{
     height: auto;
     width: 90%;
     display: flex;
@@ -151,7 +149,7 @@ transition: transform 1.4s;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    height: 100px;
+    
 
 }
 
@@ -325,6 +323,12 @@ transition: transform 1.4s;
     text-decoration: underline;
 }
 
+@media (min-width: 280px) and (max-width: 545px){
+    .logoNav{
+        width: 250px;
+    }
+}
+
 @media (min-width:416px){
     .botonera ul li a {
         margin-right: 15px;
@@ -341,11 +345,20 @@ transition: transform 1.4s;
     .botonera ul li a {
         font-size: 1.2em;
         margin-right: 25px;
+        border-bottom: none;
     }
 
     .logoNav {
         height: 150px;
     }
+    .container-fluid{
+     flex-direction: column;
+     
+    }
+    .botonera ul {
+        width: 100%;
+    }
+
 
 }
 
@@ -364,3 +377,5 @@ transition: transform 1.4s;
     }
 
 }
+
+
