@@ -277,7 +277,7 @@ transition: transform 1.4s;
 
 }
 
-.pagosTamaño {
+.pagosTamanio {
     width: 280px;
     height: 160px;
     border: solid black 1px;
@@ -297,7 +297,7 @@ transition: transform 1.4s;
 
 }
 
-.enviosTamaño {
+.enviosTamanio {
     font-size: 2rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -308,7 +308,7 @@ transition: transform 1.4s;
 
 }
 
-.envios2Tamaño {
+.envios2Tamanio {
     font-size: 4rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
