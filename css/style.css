@@ -58,9 +58,9 @@ body {
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
-    background-size: 0% 2px;
+    
     transition: all .3s ease;
-    border-bottom: solid black 1px;
+    border-bottom: 1px solid black ;
 
 }
 
@@ -68,7 +68,7 @@ body {
 nav ul li a:hover {
     color: black;
     font-weight: 600;
-   background-size: 100% 2px;
+  
 }
 
 .one {
@@ -164,7 +164,7 @@ transition: all 1.4s ease;
 
 .cajaSection {
     width: 0% auto;
-    border: solid black 2px;
+    border: 2px solid black ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -176,7 +176,7 @@ transition: all 1.4s ease;
 }
 
 .cajaSectionBuzos {
-    border: solid black 2px;
+    border: 2px solid black ;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -256,7 +256,7 @@ transition: all 1.4s ease;
 .btnXl:hover {
     background-color: white;
     color: #000000;
-    border: solid black 1px;
+    border: 1px solid black ;
 }
 
 .pagoText {
@@ -280,7 +280,7 @@ transition: all 1.4s ease;
 .pagosTamanio {
     width: 280px;
     height: 160px;
-    border: solid black 1px;
+    border: 1px solid black ;
 
 
 }
@@ -288,7 +288,7 @@ transition: all 1.4s ease;
 .cajaEnvios {
     width: 0 auto;
     height: auto;
-    border: solid black 2px;
+    border: 2px solid black ;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
