@@ -201,7 +201,7 @@ nav ul li a:hover {
 
 .imgTienda {
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.678);
 
@@ -209,7 +209,7 @@ nav ul li a:hover {
 
 .belowTienda {
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
