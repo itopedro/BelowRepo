@@ -60,6 +60,7 @@ body {
     background-repeat: no-repeat;
     transition: all .3s ease;
     border-bottom: 1px solid black;
+   background-size: 0% 2px;
 
 }
 
@@ -67,6 +68,8 @@ body {
 nav ul li a:hover {
     color: black;
     font-weight: 600;
+    background-size: 100% 2px;
+    border-bottom: 1px solid black;
 
 }
 
