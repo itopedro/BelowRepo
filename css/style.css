@@ -163,7 +163,7 @@ transition: all 1.4s ease;
 
 
 .cajaSection {
-    width: 0% auto;
+    width:  auto;
     border: 2px solid black ;
     display: flex;
     flex-direction: row;
@@ -286,7 +286,7 @@ transition: all 1.4s ease;
 }
 
 .cajaEnvios {
-    width: 0 auto;
+    width:  auto;
     height: auto;
     border: 2px solid black ;
     display: flex;
