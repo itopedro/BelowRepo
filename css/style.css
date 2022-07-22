@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../img/fondo.png);
+    background-attachment: fixed;
+}
+
+#contendedorGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four"
+
+}
+
+
+.botonera  { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.botonera ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.507);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    
+}
+.botonera ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    border-bottom: solid black 1px;
+
+}
+
+
+nav ul li a:hover {
+    color: black;
+    font-weight: 600;
+   background-size: 100% 2px;
+}
+
+.one {
+    background-color: rgba(182, 182, 182, 0);
+    grid-area: one;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.two {
+    background-color: rgba(133, 133, 133, 0);
+    grid-area: two;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.three {
+    background-color: rgba(63, 63, 63, 0);
+    grid-area: three;
+}
+
+.four {
+    background-color: rgba(139, 139, 139, 0);
+    grid-area: four;
+}
+
+
+
+.pieIcon {
+    width: 30px;
+    padding-top: 5px;
+}
+.pieIcon:hover {
+transform: rotateZ(-360deg);
+transition: all 1.4s ease;
+}
+
+.pieTitulo {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pieSubtitulo {
+    font-size: 1.3rem;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.imgIndex {
+
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ 
+}
+
+.logoNav{
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+
+.hIndex {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.705);
+
+
+}
+
+
+
+.cajaSection {
+    width: 0% auto;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cajaSectionBuzos {
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.txtIndex {
+    text-align: center;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.price {
+    text-align: center;
+    font-size: 1.4em;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.imgTienda {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.678);
+
+}
+
+.belowTienda {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.tienda {
+    margin: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    padding: auto;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.comoComprar {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.padFlecha {
+    padding-bottom: 15px;
+
+}
+
+.btnXl {
+    width: 150px;
+    height: 85px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btnXl:hover {
+    background-color: white;
+    color: #000000;
+    border: solid black 1px;
+}
+
+.pagoText {
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgPagos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+
+
+}
+
+.pagosTamanio {
+    width: 280px;
+    height: 160px;
+    border: solid black 1px;
+
+
+}
+
+.cajaEnvios {
+    width: 0 auto;
+    height: auto;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.enviosTamanio {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.envios2Tamanio {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    margin: 5px;
+    padding: 5px;
+}
+
+.subrayada {
+    text-decoration: underline;
+}
+
+@media (min-width: 280px) and (max-width: 545px){
+    .logoNav{
+        width: 250px;
+    }
+}
+
+@media (min-width:416px){
+    .botonera ul li a {
+        margin-right: 15px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .hIndex {
+        font-size: 3em;
+    }
+
+    .botonera ul li a {
+        font-size: 1.2em;
+        margin-right: 25px;
+        border-bottom: none;
+    }
+
+    .logoNav {
+        height: 150px;
+    }
+    .container-fluid{
+     flex-direction: column;
+     
+    }
+    .botonera ul {
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .hIndex {
+        font-size: 3.5em;
+    }
+
+    .botonera ul li a {
+        font-size: 1.5em;
+        margin-right: 35px;
+    }
+
+    .logoNav {
+        height: 200px;
+    }
+
+}
+
+
