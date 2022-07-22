@@ -59,7 +59,6 @@ body {
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
-
     transition: all .3s ease;
     border-bottom: 1px solid black;
 
