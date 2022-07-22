@@ -27,7 +27,7 @@ body {
 }
 
 
-.botonera  { 
+.botonera {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,8 +46,9 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
-    
+
 }
+
 .botonera ul li a {
     color: black;
     text-decoration: none;
@@ -58,9 +59,9 @@ body {
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
-    
+
     transition: all .3s ease;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid black;
 
 }
 
@@ -68,7 +69,7 @@ body {
 nav ul li a:hover {
     color: black;
     font-weight: 600;
-  
+
 }
 
 .one {
@@ -108,9 +109,10 @@ nav ul li a:hover {
     width: 30px;
     padding-top: 5px;
 }
+
 .pieIcon:hover {
-transform: rotateZ(-360deg);
-transition: all 1.4s ease;
+    transform: rotateZ(-360deg);
+    transition: all 1.4s ease;
 }
 
 .pieTitulo {
@@ -138,10 +140,10 @@ transition: all 1.4s ease;
     justify-content: center;
     align-items: center;
     padding: 10px;
- 
+
 }
 
-.logoNav{
+.logoNav {
     height: auto;
     width: 90%;
     display: flex;
@@ -149,7 +151,7 @@ transition: all 1.4s ease;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    
+
 
 }
 
@@ -163,8 +165,8 @@ transition: all 1.4s ease;
 
 
 .cajaSection {
-    width:  auto;
-    border: 2px solid black ;
+    width: auto;
+    border: 2px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -176,7 +178,7 @@ transition: all 1.4s ease;
 }
 
 .cajaSectionBuzos {
-    border: 2px solid black ;
+    border: 2px solid black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -256,7 +258,7 @@ transition: all 1.4s ease;
 .btnXl:hover {
     background-color: white;
     color: #000000;
-    border: 1px solid black ;
+    border: 1px solid black;
 }
 
 .pagoText {
@@ -280,15 +282,15 @@ transition: all 1.4s ease;
 .pagosTamanio {
     width: 280px;
     height: 160px;
-    border: 1px solid black ;
+    border: 1px solid black;
 
 
 }
 
 .cajaEnvios {
-    width:  auto;
+    width: auto;
     height: auto;
-    border: 2px solid black ;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -323,13 +325,13 @@ transition: all 1.4s ease;
     text-decoration: underline;
 }
 
-@media (min-width: 280px) and (max-width: 545px){
-    .logoNav{
+@media (min-width: 280px) and (max-width: 545px) {
+    .logoNav {
         width: 250px;
     }
 }
 
-@media (min-width:416px){
+@media (min-width:416px) {
     .botonera ul li a {
         margin-right: 15px;
     }
@@ -351,10 +353,12 @@ transition: all 1.4s ease;
     .logoNav {
         height: 150px;
     }
-    .container-fluid{
-     flex-direction: column;
-     
+
+    .container-fluid {
+        flex-direction: column;
+
     }
+
     .botonera ul {
         width: 100%;
     }
@@ -377,5 +381,3 @@ transition: all 1.4s ease;
     }
 
 }
-
-
