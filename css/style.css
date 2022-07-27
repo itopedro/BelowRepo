@@ -1,384 +1,332 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    background-image: url(../img/fondo.png);
-    background-attachment: fixed;
-}
-
-#contendedorGrid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas:
-        "one"
-        "two"
-        "three"
-        "four";
-
-}
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 .botonera {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
 }
-
 .botonera ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(128, 128, 128, 0.507);
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.507);
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
 }
-
-.botonera ul li a {
-    color: black;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin: 0;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    transition: all .3s ease;
-    border-bottom: 1px solid black;
-   background-size: 0% 2px;
-
+.botonera li a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #000;
+  background-size: 0% 2px;
 }
-
 
 nav ul li a:hover {
-    color: black;
-    font-weight: 600;
-    background-size: 100% 2px;
-    border-bottom: 1px solid black;
-
-}
-
-.one {
-    background-color: rgba(182, 182, 182, 0);
-    grid-area: one;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.two {
-    background-color: rgba(133, 133, 133, 0);
-    grid-area: two;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.three {
-    background-color: rgba(63, 63, 63, 0);
-    grid-area: three;
-}
-
-.four {
-    background-color: rgba(139, 139, 139, 0);
-    grid-area: four;
-}
-
-
-
-.pieIcon {
-    width: 30px;
-    padding-top: 5px;
-}
-
-.pieIcon:hover {
-    transform: rotateZ(-360deg);
-    transition: all 1.4s ease;
-}
-
-.pieTitulo {
-    font-size: 2rem;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
-
-.pieSubtitulo {
-    font-size: 1.3rem;
-    color: grey;
-    font-family: 'Roboto', sans-serif;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.imgIndex {
-
-    height: auto;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-
+  color: #000;
+  font-weight: 600;
+  background-size: 100% 2px;
+  border-bottom: 1px solid #000;
 }
 
 .logoNav {
-    height: auto;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-
-
-}
-
-.hIndex {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.705);
-
-
-}
-
-
-
-.cajaSection {
-    width: auto;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 20px;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.cajaSectionBuzos {
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.txtIndex {
-    text-align: center;
-    font-size: 2em;
-    background-color: rgba(255, 255, 255, 0.603);
-}
-
-.price {
-    text-align: center;
-    font-size: 1.4em;
-    background-color: rgba(255, 255, 255, 0.432);
-}
-
-.imgTienda {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.678);
-
-}
-
-.belowTienda {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-}
-
-.tienda {
-    margin: 20px;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
-
-.comoComprar {
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.padFlecha {
-    padding-bottom: 15px;
-
-}
-
-.btnXl {
-    width: 150px;
-    height: 85px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 0 auto;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-.btnXl:hover {
-    background-color: white;
-    color: #000000;
-    border: 1px solid black;
-}
-
-.pagoText {
-    text-align: center;
-    color: black;
-    font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.imgPagos {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-
-
-
-}
-
-.pagosTamanio {
-    width: 280px;
-    height: 160px;
-    border: 1px solid black;
-
-
-}
-
-.cajaEnvios {
-    width: auto;
-    height: auto;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 40px;
-
-}
-
-.enviosTamanio {
-    font-size: 2rem;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-    padding: 10px;
-
-}
-
-.envios2Tamanio {
-    font-size: 4rem;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    color: #000000;
-    margin: 5px;
-    padding: 5px;
-}
-
-.subrayada {
-    text-decoration: underline;
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 @media (min-width: 280px) and (max-width: 545px) {
-    .logoNav {
-        width: 250px;
-    }
+  .logoNav {
+    width: 250px;
+  }
 }
-
-@media (min-width:416px) {
-    .botonera ul li a {
-        margin-right: 15px;
-    }
-
-
+@media (min-width: 416px) {
+  .botonera ul li a {
+    margin-right: 15px;
+  }
 }
-
 @media (min-width: 768px) {
-    .hIndex {
-        font-size: 3em;
-    }
-
-    .botonera ul li a {
-        font-size: 1.2em;
-        margin-right: 25px;
-        border-bottom: none;
-    }
-
-    .logoNav {
-        height: 150px;
-    }
-
-    .container-fluid {
-        flex-direction: column;
-
-    }
-
-    .botonera ul {
-        width: 100%;
-    }
-
-
+  .hIndex {
+    font-size: 3em;
+  }
+  .botonera ul li a {
+    font-size: 1.2em;
+    margin-right: 25px;
+    border-bottom: none;
+  }
+  .logoNav {
+    height: 150px;
+  }
+  .container-fluid {
+    flex-direction: column;
+  }
+  .botonera ul {
+    width: 100%;
+  }
 }
-
 @media (min-width: 1024px) {
-    .hIndex {
-        font-size: 3.5em;
-    }
-
-    .botonera ul li a {
-        font-size: 1.5em;
-        margin-right: 35px;
-    }
-
-    .logoNav {
-        height: 200px;
-    }
-
+  .hIndex {
+    font-size: 3.5em;
+  }
+  .botonera ul li a {
+    font-size: 1.5em;
+    margin-right: 35px;
+  }
+  .logoNav {
+    height: 200px;
+  }
 }
+.pieIcon {
+  width: 30px;
+  padding-top: 5px;
+}
+
+.pieIcon:hover {
+  transform: rotateZ(-360deg);
+  transition: all 1.4s ease;
+}
+
+.pieTitulo {
+  font-size: 2rem;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.pieSubtitulo {
+  font-size: 1.3rem;
+  color: grey;
+  font-family: "Roboto", sans-serif;
+}
+
+.imgIndex {
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.imgTienda {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.678);
+}
+
+.padFlecha {
+  padding-bottom: 15px;
+}
+
+.btnXl {
+  width: 150px;
+  height: 85px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.btnXl:hover {
+  background-color: white;
+  color: #000000;
+  border: 1px solid #000;
+}
+
+.imgPagos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.pagosTamanio {
+  width: 280px;
+  height: 160px;
+  border: 1px solid #000;
+}
+
+.subrayada {
+  text-decoration: underline;
+}
+
+.pagoText {
+  text-align: center;
+  color: #000;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.txtIndex {
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, 0.603);
+}
+
+.price {
+  text-align: center;
+  font-size: 1.4em;
+  background-color: rgba(255, 255, 255, 0.432);
+}
+
+.hIndex {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.enviosTamanio {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 10px;
+}
+
+.envios2Tamanio {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  margin: 5px;
+  padding: 5px;
+}
+
+.comoComprar {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.cajaSection {
+  width: auto;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cajaSectionBuzos {
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.belowTienda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.tienda {
+  margin: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cajaEnvios {
+  width: auto;
+  height: auto;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/fondo.png);
+  background-attachment: fixed;
+}
+
+#contendedorGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "one" "two" "three" "four";
+}
+
+.one {
+  background-color: rgba(182, 182, 182, 0);
+  grid-area: one;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.two {
+  background-color: rgba(133, 133, 133, 0);
+  grid-area: two;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.three {
+  background-color: rgba(63, 63, 63, 0);
+  grid-area: three;
+}
+
+.four {
+  background-color: rgba(139, 139, 139, 0);
+  grid-area: four;
+}
+
+/*# sourceMappingURL=style.css.map */

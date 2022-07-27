@@ -1,0 +1,56 @@
+@media (min-width: 280px) and (max-width: 545px) {
+    .logoNav {
+        width: 250px;
+    }
+}
+
+@media (min-width:416px) {
+    .botonera ul li a {
+        margin-right: 15px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .hIndex {
+        font-size: 3em;
+    }
+
+    .botonera ul li a {
+        font-size: 1.2em;
+        margin-right: 25px;
+        border-bottom: none;
+    }
+
+    .logoNav {
+        height: 150px;
+    }
+
+    .container-fluid {
+        flex-direction: column;
+
+    }
+
+    .botonera ul {
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .hIndex {
+        font-size: 3.5em;
+    }
+
+    .botonera ul li a {
+        font-size: 1.5em;
+        margin-right: 35px;
+    }
+
+    .logoNav {
+        height: 200px;
+    }
+
+}

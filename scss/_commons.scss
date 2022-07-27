@@ -1,0 +1,81 @@
+
+.imgIndex {
+
+    height: auto;
+    width: 90%;
+    display: $d-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+.imgTienda {
+    display: $d-flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.678);
+
+}
+
+
+
+
+
+.padFlecha {
+    padding-bottom: 15px;
+
+}
+
+.btnXl {
+    width: 150px;
+    height: 85px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 2rem;
+    display: $d-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btnXl:hover {
+    background-color: white;
+    color: #000000;
+    border: 1px solid $main-color;
+}
+
+
+
+.imgPagos {
+    display: $d-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+
+
+}
+
+.pagosTamanio {
+    width: 280px;
+    height: 160px;
+    border: 1px solid $main-color;
+
+
+}

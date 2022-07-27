@@ -1,0 +1,24 @@
+{
+  "name": "below",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/header.scss  css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itopedro/BelowRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itopedro/BelowRepo/issues"
+  },
+  "homepage": "https://github.com/itopedro/BelowRepo#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}

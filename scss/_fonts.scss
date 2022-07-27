@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.subrayada {
+    text-decoration: underline;
+}
+.pagoText {
+    text-align: center;
+    color: $main-color;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.txtIndex {
+    text-align: center;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.price {
+    text-align: center;
+    font-size: 1.4em;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.hIndex {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.705);
+
+
+}
+.text-center {
+    text-align: center;
+}
+.enviosTamanio {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: $d-flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.envios2Tamanio {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: $d-flex;
+    justify-content: center;
+    color: #000000;
+    margin: 5px;
+    padding: 5px;
+}
+.comoComprar {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}

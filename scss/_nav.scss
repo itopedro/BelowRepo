@@ -1,0 +1,63 @@
+.botonera {
+    display: $d-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+
+
+    & ul {
+        list-style: none;
+        display: $d-flex;
+        flex-direction: column;
+        background-color: rgba(128, 128, 128, 0.507);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+
+    & li a {
+        color:$main-color;
+    ;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin: 0;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        transition: all .3s ease;
+        border-bottom: 1px solid $main-color;
+    ;
+       background-size: 0% 2px;
+    
+    }
+}
+
+
+
+
+
+nav ul li a:hover {
+    color:$main-color;
+;
+    font-weight: 600;
+    background-size: 100% 2px;
+    border-bottom: 1px solid $main-color;
+
+}
+.logoNav {
+    height: auto;
+    width: 90%;
+    display: $d-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
+}

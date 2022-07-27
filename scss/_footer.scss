@@ -1,0 +1,21 @@
+.pieIcon {
+    width: 30px;
+    padding-top: 5px;
+}
+
+.pieIcon:hover {
+    transform: rotateZ(-360deg);
+    transition: all 1.4s ease;
+}
+
+.pieTitulo {
+    font-size: 2rem;
+    color: $main-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pieSubtitulo {
+    font-size: 1.3rem;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,53 @@
+.cajaSection {
+    width: auto;
+    border: 2px solid $main-color;
+    display: $d-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cajaSectionBuzos {
+    border: 2px solid $main-color;
+    display: $d-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.belowTienda {
+    display: $d-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.tienda {
+    margin: 20px;
+    flex-wrap: wrap;
+    display: $d-flex;
+    justify-content: space-evenly;
+    padding: 0;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.cajaEnvios {
+    width: auto;
+    height: auto;
+    border: 2px solid $main-color;
+    display: $d-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
