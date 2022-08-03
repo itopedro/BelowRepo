@@ -17,8 +17,7 @@
     background-color: rgba(182, 182, 182, 0);
     grid-area: one;
     display: $d-flex;
-    justify-content: center;
-    align-items: center;
+    @include itemCenter(center,center);
     flex-direction: column;
 
 }
@@ -28,8 +27,7 @@
     grid-area: two;
     display: $d-flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include itemCenter(center,center);
 
 
 }

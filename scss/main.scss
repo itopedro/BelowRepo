@@ -1,12 +1,13 @@
 @import "vars";
+@import "base/reset";
+@import "mixins";
 @import "nav";
-@import "mediaqueries";
 @import "footer";
 @import "commons";
 @import "fonts";
 @import "productos";
-@import "base/reset";
 @import "grid";
+@import "mediaqueries";
 
 
 

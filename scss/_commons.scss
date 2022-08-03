@@ -5,8 +5,7 @@
     width: 90%;
     display: $d-flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include itemCenter(center,center);
     padding: 10px;
 
 }
@@ -47,8 +46,7 @@
     margin: 0 auto;
     font-size: 2rem;
     display: $d-flex;
-    justify-content: center;
-    align-items: center;
+    @include itemCenter(center,center);
     font-family: 'Roboto', sans-serif;
 
 }

@@ -1,8 +1,7 @@
 .botonera {
     display: $d-flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include itemCenter(center,center);
     height: auto;
     width: 100%;
 
@@ -14,8 +13,7 @@
         background-color: rgba(128, 128, 128, 0.507);
         width: 100%;
         text-align: center;
-        justify-content: center;
-        align-items: center;
+        @include itemCenter(center,center);
         font-size: 1.5em;
     }
 
@@ -55,8 +53,7 @@ nav ul li a:hover {
     width: 90%;
     display: $d-flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include itemCenter(center,center);
     padding: 10px;
 
 

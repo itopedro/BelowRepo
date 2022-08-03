@@ -1,9 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/fondo.png);
+  background-attachment: fixed;
+}
+
+.pieTitulo, .pieSubtitulo {
+  font-size: 2rem;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.pieSubtitulo {
+  font-size: 1.3rem;
+  color: grey;
+}
+
 .botonera {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: auto;
   width: 100%;
 }
@@ -50,47 +75,6 @@ nav ul li a:hover {
   padding: 10px;
 }
 
-@media (min-width: 280px) and (max-width: 545px) {
-  .logoNav {
-    width: 250px;
-  }
-}
-@media (min-width: 416px) {
-  .botonera ul li a {
-    margin-right: 15px;
-  }
-}
-@media (min-width: 768px) {
-  .hIndex {
-    font-size: 3em;
-  }
-  .botonera ul li a {
-    font-size: 1.2em;
-    margin-right: 25px;
-    border-bottom: none;
-  }
-  .logoNav {
-    height: 150px;
-  }
-  .container-fluid {
-    flex-direction: column;
-  }
-  .botonera ul {
-    width: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .hIndex {
-    font-size: 3.5em;
-  }
-  .botonera ul li a {
-    font-size: 1.5em;
-    margin-right: 35px;
-  }
-  .logoNav {
-    height: 200px;
-  }
-}
 .pieIcon {
   width: 30px;
   padding-top: 5px;
@@ -99,18 +83,6 @@ nav ul li a:hover {
 .pieIcon:hover {
   transform: rotateZ(-360deg);
   transition: all 1.4s ease;
-}
-
-.pieTitulo {
-  font-size: 2rem;
-  color: #000;
-  font-family: "Roboto", sans-serif;
-}
-
-.pieSubtitulo {
-  font-size: 1.3rem;
-  color: grey;
-  font-family: "Roboto", sans-serif;
 }
 
 .imgIndex {
@@ -280,20 +252,6 @@ nav ul li a:hover {
   margin-bottom: 40px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  background-image: url(../img/fondo.png);
-  background-attachment: fixed;
-}
-
 #contendedorGrid {
   display: grid;
   grid-template-columns: 1fr;
@@ -327,6 +285,48 @@ body {
 .four {
   background-color: rgba(139, 139, 139, 0);
   grid-area: four;
+}
+
+@media (min-width: 280px) and (max-width: 545px) {
+  .logoNav {
+    width: 250px;
+  }
+}
+@media (min-width: 416px) {
+  .botonera ul li a {
+    margin-right: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .hIndex {
+    font-size: 3em;
+  }
+  .botonera ul li a {
+    font-size: 1.2em;
+    margin-right: 25px;
+    border-bottom: none;
+  }
+  .logoNav {
+    height: 150px;
+  }
+  .container-fluid {
+    flex-direction: column;
+  }
+  .botonera ul {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .hIndex {
+    font-size: 3.5em;
+  }
+  .botonera ul li a {
+    font-size: 1.5em;
+    margin-right: 35px;
+  }
+  .logoNav {
+    height: 200px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

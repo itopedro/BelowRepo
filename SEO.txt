@@ -1,0 +1,25 @@
+SEO INDEX:
+-Descripcion: En la etiqueta meta description puse un pequeño resumen de lo que seria el inicio de la web
+-Key words: Con la etiqueta meta kewwords coloque palablras clave de lo que se encuentra en esta seccion
+Buzos ,Remeras, Articulos Destacados,Nueva coleccion,Below Family
+-Encabezado:En la etiqueta h1 puse Los articulos destacados 
+
+WINTER DROP:
+-Descripcion:En la etiqueta meta description puse la presentacion del nuevo lanzamiento de prendas 2022
+-Key words:Utilize las mismas que en index y agregue la palabra Winter
+-Encabezado:En la etiqueta h1 Puse New collection por el nuevo drop de ropa 2022 para el invierno
+
+TIENDA:
+-Descripcion: En la etiqueta meta description puse una presentacion a la tienda completa de below con buzos y remeras
+-Key words:Utilize las mismas que en index y sume Tienda
+-Encabezado:En la etiqueta h1 puse la seccion de Buzos de la tienda y en un h2 puse la seccion de remeras
+
+COMPRA:
+-Descripcion: En la etiqueta meta description puse una explicacion de lo explciado en esta parte de la pagina , que seria como realizar los pedidos y los medios de pago que hay disponibles
+-Key words:Utilize las mismas que en index y sume Compra
+-Encabezado:En la etiqueta h1 puse Como comprar
+
+ENVIOS:
+-Descripcion: En la etiqueta meta description puse explicando lo que hay en esta parte de la pagina que seria el sistema de envios y de devoluciones 
+-Key words:Utilize las mismas que en index y sume envios corre y devolucion
+-Encabezado:En la etiqueta h1 puse Envios y devoluciones
