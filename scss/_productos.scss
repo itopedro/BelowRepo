@@ -4,11 +4,8 @@
     display: $d-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px;
+    margin: 10px;
     flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-
 }
 
 .cajaSectionBuzos {
@@ -17,6 +14,7 @@
     flex-direction: row;
     @include itemCenter(center,center);
     flex-wrap: wrap;
+    
 
 }
 
@@ -48,3 +46,4 @@
     margin-bottom: 40px;
 
 }
+
